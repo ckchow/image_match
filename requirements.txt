@@ -5,3 +5,7 @@ numpy
 scikit-image
 matplotlib
 simplejson
+# opencv
+pandas
+seaborn
+imagehash
