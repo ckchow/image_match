@@ -5,8 +5,8 @@ I tried to design a matching pipeline that would be resistant to those effects.
 My baseline approach was using various perceptual hashing algorithms that
 use grayscale and various downsampling approaches (wavelet, DCT, average)
 to compress images down to a 64x64 representation that is invariant under
-small shifts, color transforms, rotations, and other distortions. Performance
-was around 0.29 when only assigning each original image a perfect match.
+small shifts, color transforms, rotations, and other distortions. However,
+accuracy was 0 when matching each image with a hit in the other hash.
 Performance could be improved by selecting suboptimal matches instead of only
 optimal matches, but I suspected the severe rotations in the modified images
 were causing misses.
