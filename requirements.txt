@@ -1,0 +1,7 @@
+pathlib2
+jupyter[notebook]
+Pillow
+numpy
+scikit-image
+matplotlib
+simplejson
